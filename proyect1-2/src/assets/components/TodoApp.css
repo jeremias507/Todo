@@ -1,0 +1,93 @@
+
+
+.todoContainer{
+    width: 500px;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  
+   
+    
+}
+.todoCreateForm{
+    display: flex;
+    gap: 5px;
+}
+
+.todoInput{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:solid 1px #9999
+}
+
+.botomCreate{
+    border: none;
+    border-radius: 3px;
+     background-color:  #a93226; 
+     color: white;
+     padding: 10px 20px;
+}
+
+.todosContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+
+}
+
+.todo{
+    padding: 10px;
+    background-color: #566573;
+    border-radius: 10px;
+    box-shadow:
+    0px 0px 1.7px rgba(0, 0, 0, 0.039),
+    0px 0px 4.1px rgba(0, 0, 0, 0.057),
+    0px 0px 7.6px rgba(0, 0, 0, 0.07),
+    0px 0px 13.6px rgba(0, 0, 0, 0.083),
+    0px 0px 25.5px rgba(0, 0, 0, 0.101),
+    0px 0px 61px rgba(0, 0, 0, 0.14)
+  ;
+}
+
+.todoTitle{
+   text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.todoInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentInfo{
+    display: flex;
+    gap: 10px;
+}
+
+.todoUpdateForm{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+.todoImput{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.botomActual{
+    padding: 5px 10px;
+    
+}
